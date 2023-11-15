@@ -1,6 +1,7 @@
 object FrmPrincipal: TFrmPrincipal
   Left = 0
   Top = 0
+  Align = alClient
   Caption = 'Monolito Financeiro'
   ClientHeight = 422
   ClientWidth = 724
