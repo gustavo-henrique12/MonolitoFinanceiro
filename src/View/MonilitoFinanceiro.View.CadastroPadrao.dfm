@@ -9,12 +9,12 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -11
+  Font.Height = -16
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 19
   object PnlPrincipal: TCardPanel
     Left = 0
     Top = 0
@@ -24,8 +24,6 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
     ActiveCard = CardPesquisa
     Caption = 'PnlPrincipal'
     TabOrder = 0
-    ExplicitWidth = 860
-    ExplicitHeight = 548
     object CardCadastro: TCard
       Left = 1
       Top = 1
@@ -96,8 +94,6 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
       Caption = 'CardPesquisa'
       CardIndex = 1
       TabOrder = 1
-      ExplicitWidth = 858
-      ExplicitHeight = 546
       object pnlPesquisa: TPanel
         Left = 0
         Top = 0
@@ -106,7 +102,6 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
         Align = alTop
         BevelOuter = bvNone
         TabOrder = 0
-        ExplicitWidth = 858
         object Label1: TLabel
           Left = 16
           Top = 12
@@ -124,7 +119,7 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
           Left = 16
           Top = 31
           Width = 385
-          Height = 21
+          Height = 27
           TabOrder = 0
         end
         object btnPesquisar: TButton
@@ -145,7 +140,6 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
           Images = ImageList1
           ParentFont = False
           TabOrder = 1
-          ExplicitLeft = 753
         end
       end
       object pnlPesquisarBotoes: TPanel
@@ -155,8 +149,6 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
         Height = 74
         Align = alBottom
         TabOrder = 1
-        ExplicitTop = 472
-        ExplicitWidth = 858
         object btnFechar: TButton
           Left = 763
           Top = 1
@@ -176,7 +168,6 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
           ParentFont = False
           TabOrder = 0
           OnClick = btnFecharClick
-          ExplicitLeft = 753
         end
         object btnExcluir: TButton
           Left = 209
@@ -264,8 +255,6 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
         Height = 407
         Align = alClient
         TabOrder = 2
-        ExplicitWidth = 858
-        ExplicitHeight = 397
         object DBGrid1: TDBGrid
           Left = 1
           Top = 1
@@ -275,7 +264,7 @@ object FrmCadastroPadrao: TFrmCadastroPadrao
           TabOrder = 0
           TitleFont.Charset = DEFAULT_CHARSET
           TitleFont.Color = clWindowText
-          TitleFont.Height = -11
+          TitleFont.Height = -16
           TitleFont.Name = 'Tahoma'
           TitleFont.Style = []
         end
